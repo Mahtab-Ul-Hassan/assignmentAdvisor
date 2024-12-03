@@ -1,0 +1,54 @@
+.container{
+    background-color: #f1f5f4;
+    padding: 30px; 
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+    align-items: center;
+    height: 85vh;
+}
+
+.headingContainer{
+    display: flex;
+    flex: 30%;
+    justify-content: center;
+    
+}
+  
+.heading{
+    display: flex;
+    padding: 15px 30px;
+    height: 60%;
+    margin-top: 15px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0.5, 0.5, 0.5, 0.5);
+    border-radius: 12px; 
+    background: white;   
+    gap: 10px;
+    font-family: var(--font-family);
+}
+
+.paradiv{
+    display: flex;
+    flex-direction: row;
+    flex: 70%;
+    
+    padding: 20px 0px;
+    justify-content: space-around;
+   
+}
+.assignmentIcon{
+    display: flex;
+    justify-content: flex-end;
+}
+.para{
+    padding: 15px 25px;
+    height: 80%;
+    width: 30%;
+    box-shadow: 0 4px 6px rgba(1, 2, 2, 2);
+    font-family: var(--font-family);
+    font-size: 16px;
+    border-radius: 12px;
+    background: white;
+}

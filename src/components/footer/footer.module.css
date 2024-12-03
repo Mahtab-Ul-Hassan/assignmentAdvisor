@@ -1,0 +1,63 @@
+.footer {
+    padding: 10px 0px;
+    background-color: #24515F;
+   
+    
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.heading {
+    font-family: var(--font-family);
+    color: white;
+    
+}
+
+.paragraph {
+    color: white;
+    font-family: var(--font-family);
+}
+
+.paymentImages {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    gap: 20px;
+}
+
+.bank {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    gap: 15px; 
+}
+
+.paymentImages img {
+    width: 100px; 
+    height: 50px; 
+    object-fit: cover; 
+    cursor: pointer;
+}
+.follow{
+    color: white;
+    font-family: var(--font-family);
+}
+.socialIcon{
+     color: white;
+    object-fit: cover; 
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    
+}
+.iconBackground{
+    text-decoration: none;
+    background-color: white;
+    border-radius: 55%;
+    padding: 2px;
+}
