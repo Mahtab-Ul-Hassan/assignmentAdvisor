@@ -8,22 +8,6 @@
     /* height: 85vh; */
 }
 
-@media (max-width: 450px) {
-    .container{
-      /* background-color: red; */
-    }
-  }
-  @media (max-width: 850px) {
-    .container{
-      /* background-color: green; */
-    }
-  }
-  
-  @media (max-width: 1050px) {
-   /* .para{
-    background-color: red;
-   } */
-  }
 
 .headingContainer{
     display: flex;
@@ -68,3 +52,17 @@
     border-radius: 12px;
     background: white;
 }
+
+
+
+@media screen and (max-width: 767px) {
+  .paradiv{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+  }
+
+  .para{
+    width: 70%;
+  }
+  }

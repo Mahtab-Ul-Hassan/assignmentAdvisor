@@ -4,7 +4,7 @@ import Navbar from '@/components/navbar/Navbar'
 import { FaWhatsapp } from 'react-icons/fa'
 const page = () => {
   return (
-    <div style={{backgroundColor:'red',height:'100vh',display:'flex',flexDirection:'column',flex:1}}>
+    <div style={{  backgroundColor: 'aliceblue',height:'100vh',display:'flex',flexDirection:'column',flex:1}}>
       <Navbar/>
       <div className={styles.about}>
         <div className={styles.upper}>

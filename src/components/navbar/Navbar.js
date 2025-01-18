@@ -6,11 +6,14 @@ const Navbar = () => {
   return (
     <div className={styles.navbarContainer}>
       <div className={styles.navbar}>
+        <div style={{display:'flex',flexDirection:'row',margin:'10px 0px'}}>
         <img src="/cap.png" className={styles.logo} alt="Logo" />
         <h2 className={styles.name}>
           Assignment <br />
           <span className={styles.advisor}>Advisor</span>
         </h2>
+        </div>
+        
 
         <div className={styles.mainHome}>
           <li className={styles.navItem}>
