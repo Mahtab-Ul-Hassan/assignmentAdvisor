@@ -24,8 +24,7 @@ const page = () => {
             </div>
             <div className={styles.rightContainer}></div>
           </div>
-          <div className={styles.lowerhomeContainer}>
-            <div className={styles.chooseUs}>   
+          <div className={styles.lowerhomeContainer}> 
               <div className={styles.icon}> 
               <MdFreeCancellation size={40} />
               <h5  >100% Plagiarism Free  </h5>
@@ -45,7 +44,7 @@ const page = () => {
               <div className={styles.icon}>
               <MdOutlineAssignment size={40}/>
               <h5 >Expert Writers</h5> 
-              </div>
+              
             </div>
           </div>
         </div>

@@ -1,8 +1,6 @@
 import React from 'react'
 import styles from './assignment.module.css'
 import { LuBookOpen } from "react-icons/lu";
-import { MdAssignmentTurnedIn, MdMenuBook } from "react-icons/md";
-import { MdCollectionsBookmark } from "react-icons/md";
 import { GoGoal } from "react-icons/go";
 import { FaSwatchbook } from 'react-icons/fa';
 export const Assignment = () => {

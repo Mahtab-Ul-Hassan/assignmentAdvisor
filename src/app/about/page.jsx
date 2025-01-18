@@ -4,7 +4,7 @@ import Navbar from '@/components/navbar/Navbar'
 import { FaWhatsapp } from 'react-icons/fa'
 const page = () => {
   return (
-    <div className={styles.mainContainer}>
+    <div style={{backgroundColor:'red',height:'100vh',display:'flex',flexDirection:'column',flex:1}}>
       <Navbar/>
       <div className={styles.about}>
         <div className={styles.upper}>
@@ -15,7 +15,7 @@ const page = () => {
 
             Our team comprises highly skilled writers and editors with expertise across diverse fields, ensuring that every piece of work we deliver exceeds expectations. With a steadfast commitment to quality, we focus on providing you with original, meticulously researched content that stands out for its precision and professionalism.
 
-            We understand the pressures of academic life—tight deadlines, demanding workloads, and high expectations. That’s why we’re here 24/7 to provide reliable support, no matter your time zone. From conceptualization to the final draft, our dedicated experts ensure your success is our top priority.
+            We understand the pressures of academic life—tight deadlines, demanding workloads, and high expectations. That’s why we’re here 24/7 to provide reliable support, no matter your time zone. 
 
             Choose Assignment Advisor—your trusted partner in academic excellence.
             </p>
