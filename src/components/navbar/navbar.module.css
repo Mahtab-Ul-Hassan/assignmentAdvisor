@@ -154,7 +154,7 @@ width: auto;
   .mainHome {
     flex-direction: row;
     align-items: center;
-    gap: 15px;
+    gap: 5px;
     margin-left: 0;
   }
 
